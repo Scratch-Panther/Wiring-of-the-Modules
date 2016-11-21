@@ -1,0 +1,58 @@
+COMM (i2c/2wire interface)
+vin red   raw
+sda yellow a4
+scl blue a5
+gnd black gnd
+
+PIXL
++
+-
+din
+
+MP3
+vcc vcc white
+gnd gnd black
+clk 13 grey
+miso 12 violet
+mosi 11 blue
+cs 10 green
+rst 9 yellow
+xdcs 8 orange
+sdcs 4 red
+dreq 3 brown
+
+MP3JACK
+agnd center grey
+lout left violet
+rout right white
+
+MP3MIDI
+gpio-0 gnd brown
+gpio-1 3.3v orange
+rx 2 green
+
+LCD
+1 vss gnd + 10k ohm pot left white
+2 vdd vcc + 10k ohm pot right grey
+3 v0 10kohmpotmid violet
+4 rs 12 blue
+5 r/w 11 green
+6 e 10 yellow
+7 d0 nc
+8 d1 nc
+9 d2 nc
+10 d3 nc
+11 d4 7 orange
+12 d5 6 red
+13 d6 5 brown
+14 d7 4 black
+15 a 10 ohm r + vcc grey
+16 k gnd white
+
+SERVO(S)
+
+gnd gnd black
+vcc vcc red
+data1 s1data white
+data2 s2data yellow
+
